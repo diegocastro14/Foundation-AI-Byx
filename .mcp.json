@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "postgres-byx": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "${DATABASE_URL_HOMOLOG}"
+      ],
+      "env": {}
+    }
+  }
+}
